@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="24A348" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="NO" userDefinedModelVersionIdentifier="">
+    <entity name="CachedArticle" representedClassName="CachedArticle" syncable="YES" codeGenerationType="class">
+        <attribute name="articleId" attributeType="String"/>
+        <attribute name="cachedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="orderIndex" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sectionId" optional="YES" attributeType="String"/>
+        <attribute name="sectionName" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailUrl" optional="YES" attributeType="String"/>
+        <attribute name="webPublicationDate" optional="YES" attributeType="String"/>
+        <attribute name="webTitle" optional="YES" attributeType="String"/>
+        <attribute name="webUrl" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SavedArticle" representedClassName="SavedArticle" syncable="YES" codeGenerationType="class">
+        <attribute name="addedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="articleId" attributeType="String"/>
+        <attribute name="listType" attributeType="String"/>
+        <attribute name="sectionId" optional="YES" attributeType="String"/>
+        <attribute name="sectionName" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailUrl" optional="YES" attributeType="String"/>
+        <attribute name="webPublicationDate" optional="YES" attributeType="String"/>
+        <attribute name="webTitle" optional="YES" attributeType="String"/>
+        <attribute name="webUrl" optional="YES" attributeType="String"/>
+    </entity>
+</model>
